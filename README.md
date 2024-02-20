@@ -13,6 +13,14 @@ There are 5 files added to the repository namely -
 
 # How to run the solution
 Using spark on Docker, browse to the location of the project folder using Jupyter on docker, open **main_file.ipynb**,
-and run the codes. If you successfully run this, you you see the following : 
+and run the codes. 
+
+Please do the following before proceeding
+
+1. Update the config file with your Github token. (I notice it expires and I need to regenerate another almost before every execution)
+2. Create a folder **extracted_json_files** in the root directory for extracted files of the project.
+
+
+If you successfully run this, you you see the following : 
 
 ![image](https://github.com/carliecode/scytale-assignment/assets/15030941/09ef939f-0fdc-4795-a4f8-7646f9e42ce6)
