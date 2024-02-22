@@ -17,8 +17,9 @@ and run the codes.
 
 Please do the following before proceeding
 
-1. Update the config file with your Github token. (I notice it expires and I need to regenerate another almost before every execution)
-2. Create a folder **extracted_json_files** in the root directory for extracted files of the project.
+1. Update the config file with your Github token. (I notice it expires and I need to regenerate another almost before every execution). This has also been modified to use a key without expiration. 
+2. Create a folder **extracted_json_files** in the root directory for extracted files of the project. The code has been modified to create this folder if not exist, please disregard this line.
+
 
 
 If you successfully run this, you you see the following : 
