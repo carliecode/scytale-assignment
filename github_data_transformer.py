@@ -57,7 +57,7 @@ class Github_Data_Transformer :
                 }
                 list_prs.append(pr_data)
 
-            with open(pr_filename, 'w+') as f:
+            with open(pr_filename, 'w') as f:
                 json.dump(list_prs, f)
 
         print('Github PRs have been extracted successfully!')
